@@ -32,14 +32,20 @@ function draw(params) {
   });
 
   subCal.mousePressed(() => {
-    console.log("Addition Succesfull");
+    console.log("Subtraction Succesfull");
+    ans2 = xSub.value() - ySub.value();
+    console.log(ans2);
   });
 
   mulCal.mousePressed(() => {
-    console.log("Addition Succesfull");
+    console.log("Multiplication Succesfull");
+    ans3 = xMul.value() * yMul.value();
+    console.log(ans3);
   });
 
   divCal.mousePressed(() => {
-    console.log("Addition Succesfull");
+    console.log("Division Succesfull");
+    ans4 = xDiv.value() / yDiv.value();
+    console.log(ans4);
   });
 }
