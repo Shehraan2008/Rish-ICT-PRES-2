@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- SASS -->
+    <link rel="stylesheet" href="app/scss/style.css" />
+
+    <!-- Javascript Libraires -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="https://unpkg.com/matter-js@0.14.2/build/matter.min.js"></script>
+    <script src="app/lib/p5.play.js"></script>
+  </head>
+  <body>
+    <!------------------------ Markup --------------------------->
+    <h1>Step Presentation 22 - JavaScript</h1>
+    <hr />
+    <h2>Number Calculator:</h2>
+
+    <h3>Addition</h3>
+    x: <input type="number" id="xAdd" /> y: <input type="number" id="yAdd" />
+    <button id="addCal">Calculate</button>
+
+    <h3>Subtraction</h3>
+    x: <input type="number" id="xSub" /> y: <input type="number" id="ySub" />
+    <button id="subCal">Calculate</button>
+
+    <h3>Multiplication</h3>
+    x: <input type="number" id="xMul" /> y: <input type="number" id="yMul" />
+    <button id="mulCal">Calculate</button>
+
+    <h3>Division</h3>
+    x: <input type="number" id="xDiv" /> y: <input type="number" id="yDiv" />
+    <button id="divCal">Calculate</button>
+
+    <hr />
+    <h3>Results</h3>
+
+    <!-------------------------- Scripting  ------------------------->
+    <script src="app/js/main.js"></script>
+    <script src="sketch.js"></script>
+  </body>
+</html>
